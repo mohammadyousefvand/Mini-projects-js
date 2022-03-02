@@ -12,3 +12,7 @@ simple mini projects
 
 ![Screenshot from 2022-03-01 09-59-38](https://user-images.githubusercontent.com/91375726/156117403-6f94a1ac-051f-4ca9-a817-ca75cfba43d9.png)
 
+## 3- add Tag
+- counter Tag
+- remove Tag and remove all Tags
+
