@@ -21,3 +21,5 @@ simple mini projects
 ## 4- Form Validation
 - Input validation by Regex
 - Sass style code
+
+![form](https://user-images.githubusercontent.com/91375726/156510480-1260e5fe-8fcc-4102-80e3-3056e3df655a.png)
