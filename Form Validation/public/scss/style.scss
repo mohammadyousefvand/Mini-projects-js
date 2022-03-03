@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "font1";
+    src: url(../fonts/1.eot);
+    src: url(../fonts/1.eot) format("embedded-opentype"),
+        url(../fonts/6.woff2) format("woff2"),
+        url(../fonts/5.woff) format("woff"),
+        url(../fonts/4.ttf) format("truetype"),
+        url(../fonts/3.svg) format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+::selection {
+    color: #fff;
+    background-color: rgba(0, 108, 255, 1);
+}
+
+body {
+    font-family: "font1";
+}
+
+@mixin inputStyle {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgba(0, 108, 255, .4);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 15px 0 10px;
+    caret-color: rgba(0, 108, 255, 1);
+
+    &::placeholder {
+        opacity: .4;
+        font-size: 14px;
+        color: rgba(0, 108, 255, 1);
+        font-family: "font1";
+    }
+
+}
+
+@mixin messageStyle {
+    font-size: 12px;
+    color: #f00;
+    margin-right: 10px;
+}
+
+@mixin courent {
+    border: 1px solid rgba(20, 170, 0, 0.8);
+    background-color: rgba(20, 170, 0, 0.1);
+}
+
+@mixin errorStyle {
+    border: 1px solid rgba(255, 0, 0, 0.8);
+}
+
+body {
+    width: 100%;
+    background: rgba(0, 108, 255, 1);
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.container {
+    width: 700px;
+    background-color: #EBECF1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px 0 30px;
+
+    h2 {
+        margin: 5px;
+        color: rgba(0, 108, 255, 1);
+        position: relative;
+
+        &::after {
+            content: "";
+            width: 150px;
+            height: 3px;
+            background-color: rgba(0, 108, 255, 1);
+            position: absolute;
+            bottom: -20%;
+            left: -15%;
+        }
+    }
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .section-top {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        gap: 20px;
+        padding: 15px;
+
+        .input-box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+
+            input {
+                @include inputStyle;
+            }
+
+            .name {
+                font-family: "font1";
+            }
+
+            .errorInput {
+                @include errorStyle
+            }
+
+            .curectInput {
+                @include courent
+            }
+        }
+    }
+
+    .section-down {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 10px;
+    }
+}
+
+.pass {
+    position: relative;
+
+    span {
+        position: absolute;
+        left: 10px;
+        color: rgba(0, 108, 255, 1);
+        cursor: pointer;
+        transform: translateY(4px);
+    }
+}
+
+label {
+    margin-right: 8px;
+    font-size: 18px;
+    color: rgba(0, 108, 255, 1);
+}
+
+.message {
+    @include messageStyle;
+    visibility: hidden;
+}
+
+.show-massage {
+    visibility: visible;
+}
+
+.eror-day {
+    margin-top: 5px;
+}
+
+.section-birth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+
+    .titr {
+        display: inline-block;
+        width: 100%;
+        margin: 10px auto;
+        background-color: rgba(0, 108, 255, 1);
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .wraper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .birth-box {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                @include inputStyle;
+                width: 100px;
+            }
+
+            .errorInput {
+                @include errorStyle
+            }
+
+            .curectInput {
+                @include courent
+            }
+        }
+    }
+}
+
+.submit {
+    width: 100%;
+    padding: 10px 25px;
+
+    input {
+        width: 100%;
+        height: 45px;
+        background: linear-gradient(230deg, rgb(22, 189, 240) 0%, rgba(0, 108, 255, 1) 100%);
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-family: "font1";
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+        &:hover {
+            background-size: 150%;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 500px;
+    }
+
+    form .section-top {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 350px;
+    }
+
+    form .section-top {
+        grid-template-columns: 1fr;
+    }
+
+    label {
+        font-size: 15px;
+    }
+}

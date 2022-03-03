@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://kit.fontawesome.com/ebda61e3fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>فرم ثبت نام</h2>
+        <form action="#" autocomplete="off">
+            <div class="section-top">
+                <div class="input-box">
+                    <label>نام</label>
+                    <input class="name" type="text" placeholder="نام خود را وارد کنید..." maxlength="10">
+                    <p class="message eror-name">نام شما نمیتواند از دو کاراکتر کمتر و از ۱۰ کاراکتر بیشتر باشد</p>
+                </div>
+                <div class="input-box">
+                    <label>نام خانوادگی</label>
+                    <input class="name family" type="text" placeholder="نام خانوادگی خود را وارد کنید...">
+                    <p class="message eror-family">لطفا نام خانوادگی خود را به درستی وارد نمایید</p>
+                </div>
+                <div class="input-box">
+                    <label>شماره همراه</label>
+                    <input class="numberPhone" type="number" placeholder="شماره همراه خود را وارد کنید    مثال : ۰۹۱۶">
+                    <p class="message eror-number">شماره همراه معتبر نیست</p>
+                </div>
+                <div class="input-box">
+                    <label>ایمیل</label>
+                    <input class="email" type="email" placeholder="ایمیل خود را وارد کنید...">
+                    <p class="message eror-mail">ایمیل وارد شده صحیح نمی باشد</p>
+                </div>
+                <div class="input-box">
+                    <label>نام کاربری</label>
+                    <input class="userName" type="text" placeholder="یک نام کاربری برای خود انتخاب کنید...">
+                    <p class="message eror-username">نام کاربری شما نباید از ۸ کاراکتر کمتر باشد</p>
+                </div>
+                <div class="input-box pass">
+                    <span class="fa fa-eye-slash eye_icon"></span>
+                    <label>رمز عبور</label>
+                    <input class="inputPass password" type="password"
+                        placeholder="رمز عبور برای حساب خود تعیین کنید...">
+                    <p class="message eror-password">رمز عبور نمیتواند از ۸ کاراکتر کمتر باشد</p>
+                </div>
+            </div>
+            <div class="section-birth">
+                <label class="titr">تاریخ تولد</label>
+                <div class="wraper">
+                    <div class="birth-box">
+                        <label>روز</label>
+                        <input class="dayinput" type="number">
+                    </div>
+                    <div class="birth-box">
+                        <label>ماه</label>
+                        <input class="monthinput" type="number">
+                    </div>
+                    <div class="birth-box">
+                        <label>سال</label>
+                        <input class="yearinput" type="number">
+                    </div>
+                </div>
+                <p class="message eror-day">روز وارد شده صحیح نمی باشد</p>
+                <p class="message eror-mouth">ماه وارد شده صحیح نمی باشد</p>
+                <p class="message eror-year">سال وارد شده صحیح نمی باشد</p>
+            </div>
+            <div class="section-down">
+                <div class="input-box-down submit">
+                    <input class="submit" type="submit" value="ثبت نام">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="public/js/app.js"></script>
+</body>
+
+</html>

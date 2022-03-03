@@ -15,6 +15,9 @@ simple mini projects
 ## 3- add Tag
 - counter Tag
 - remove Tag and remove all Tags
-- 
+
 ![Screenshot from 2022-03-02 11-33-56](https://user-images.githubusercontent.com/91375726/156321451-7df1bfbd-7c10-4198-afe3-569cd5904fd8.png)
 
+## 4- Form Validation
+- Input validation by Regex
+- Sass style code
