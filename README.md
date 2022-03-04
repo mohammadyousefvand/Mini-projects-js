@@ -26,3 +26,5 @@ simple mini projects
 
 ## 5- Drag box
 - Drag and drop box in window
+
+![Screenshot from 2022-03-04 09-49-38](https://user-images.githubusercontent.com/91375726/156710900-979d2ba2-77dc-47ae-8b4a-dc270a212759.png)
