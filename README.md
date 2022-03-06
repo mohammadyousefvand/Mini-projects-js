@@ -35,3 +35,6 @@ simple mini projects
 
 ![Screenshot from 2022-03-05 10-44-56](https://user-images.githubusercontent.com/91375726/156873080-6e9df491-125a-4505-8cba-63b70e9ba472.png)
 
+## 7- Search Box
+- Auto search box
+
