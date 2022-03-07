@@ -40,3 +40,7 @@ simple mini projects
 
 ![Screenshot from 2022-03-06 12-04-24](https://user-images.githubusercontent.com/91375726/156915636-513e3031-3633-4798-9398-0f066b3fdf18.png)
 
+## 8 - 3D card
+- Mouse move in card (start effect)
+- effect with [tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
+
