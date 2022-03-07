@@ -44,3 +44,6 @@ simple mini projects
 - Mouse move in card (start effect)
 - effect with [tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
 
+https://user-images.githubusercontent.com/91375726/157054889-64abecde-5ad2-4c27-848f-f786a15e5c51.mp4
+
+
