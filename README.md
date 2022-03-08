@@ -43,12 +43,15 @@ simple mini projects
 ## 8 - 3D card
 - Mouse move in card (start effect)
 - effect with [tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
+- [See demo](https://user-images.githubusercontent.com/91375726/157054889-64abecde-5ad2-4c27-848f-f786a15e5c51.mp4) 
 
-<<<<<<< HEAD
+![Screenshot from 2022-03-08 20-15-59](https://user-images.githubusercontent.com/91375726/157284944-5a555ad6-f63f-4969-a340-8580ed9e82cf.png)
+
+
 ## 9 - Text To Speech
 - select language 
-=======
-https://user-images.githubusercontent.com/91375726/157054889-64abecde-5ad2-4c27-848f-f786a15e5c51.mp4
->>>>>>> df7123fcb15c511ab13cc7681910a0de7c82d607
+
+![Screenshot from 2022-03-08 20-15-26](https://user-images.githubusercontent.com/91375726/157284910-61d0b7c1-c74f-4fe1-9ab3-3a9131f93ece.png)
+
 
 
