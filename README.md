@@ -44,3 +44,7 @@ simple mini projects
 - Mouse move in card (start effect)
 - effect with [tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
 
+## 9 - Text To Speech
+- select language 
+
+
