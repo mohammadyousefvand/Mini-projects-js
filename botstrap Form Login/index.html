@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botstrap Tutorial</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container mt-4 border border-info rounded-3 py-4">
+    <p class="h3 text-center mb-4">Form login</p>
+    <div class="row">
+      <div class="col-12 col-sm-6 mb-3 mb-sm-2 position-relative">
+        <label for="formGroupExampleInput" class="form-label">Username</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon1">@</span>
+          <input type="text" class="form-control userNameInput" id="validationTooltip01"
+            placeholder="Enter Your Username">
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+          <div class="invalid-tooltip">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 mb-4 position-relative">
+        <label for="formGroupExampleInput2" class="form-label ">Password</label>
+        <div class="input-group">
+          <i class="bi bi-unlock-fill input-group-text"></i>
+          <input type="password" class="form-control passwordInput" id="validationTooltip02"
+            placeholder="Enter Your Password">
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+          <div class="invalid-tooltip">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3 mb-5">
+      <div class="col-12 col-sm-6 mb-3 mb-sm-0 position-relative">
+        <label for="inputEmail4" class="form-label ">Email</label>
+        <div class="input-group">
+          <i class="bi bi-envelope-fill input-group-text"></i>
+          <input type="email" class="form-control emailEnput" id="inputEmail4" placeholder="Enter Your Email">
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+          <div class="invalid-tooltip">
+            Please choose a Email.
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 mt-3 mt-sm-0 position-relative">
+        <label for="inputEmail4" class="form-label ">Country</label>
+        <input type="text" class="form-control countryInput" id="inputEmail4">
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+        <div class="invalid-tooltip">
+          Please choose a Country.
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 mt-3 mt-sm-0 position-relative">
+        <label for="inputEmail4" class="form-label ">City</label>
+        <input type="text" class="form-control cityInput" id="inputEmail4">
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+        <div class="invalid-tooltip">
+          Please choose a City.
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Gender</label>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Female
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12 col-sm-6 mt-3 mb-3 mt-sm-2 position-relative">
+        <select class="form-select select-box" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-12 col-sm-6 mt-3 mb-3 mt-sm-2 position-relative">
+        <input class="form-control fileinput" type="file" id="formFile">
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+        <div class="invalid-tooltip">
+          Support format jpg / jpeg / png.
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 d-flex justify-content-sm-center">
+      <div class="col-6">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Remember Me
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="d-grid col-12 col-sm-6 mt-3 mx-auto">
+      <button class="btn btn-danger" type="button">Button</button>
+    </div>
+  </div>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

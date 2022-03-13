@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 0 20px;
+}
+
+.container{
+    background-color: #272727;
+}
+
+p , label{
+    color: #fff;
+}
+
+.form-check-input{
+    accent-color: red;
+}
