@@ -64,4 +64,7 @@ install dependency
 
 ![Screenshot from 2022-03-13 20-26-45](https://user-images.githubusercontent.com/91375726/158071696-26a5d0c7-5fdc-4f2e-8c7a-ce1244ec891a.png)
 
+## 11 - QR-Code Generator
+- Used Tailwind in Project
+- api => [api.qrserver.com](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example)
 
